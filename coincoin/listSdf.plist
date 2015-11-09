@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/alyssa-4RW9QJ-x528.JPG</string>
+		<key>firstName</key>
+		<string>Zoé</string>
+		<key>age</key>
+		<string>12</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/larry2-17OACT-x528.jpg</string>
+		<key>firstName</key>
+		<string>Jacque</string>
+		<key>age</key>
+		<string>34</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/danilo-C7F0XD-x528.jpg</string>
+		<key>firstName</key>
+		<string>Jean</string>
+		<key>age</key>
+		<string>24</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/alyssa-4RW9QJ-x528.JPG</string>
+		<key>firstName</key>
+		<string>Zoé</string>
+		<key>age</key>
+		<string>12</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/danilo-C7F0XD-x528.jpg</string>
+		<key>firstName</key>
+		<string>Jean</string>
+		<key>age</key>
+		<string>24</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/jennifer-KR6O2R-x528.png</string>
+		<key>firstName</key>
+		<string>Michel</string>
+		<key>age</key>
+		<string>53</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/larry2-17OACT-x528.jpg</string>
+		<key>firstName</key>
+		<string>Jacque</string>
+		<key>age</key>
+		<string>34</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://c2dc534f0d6bd00d3a80-047e9c542ba622e42a7197026f87fdf0.ssl.cf2.rackcdn.com/alyssa-4RW9QJ-x528.JPG</string>
+		<key>firstName</key>
+		<string>Zoé</string>
+		<key>age</key>
+		<string>12</string>
+		<key>city</key>
+		<string>Paris, France</string>
+	</dict>
+</array>
+</plist>

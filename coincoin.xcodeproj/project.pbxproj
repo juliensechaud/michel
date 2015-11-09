@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		850A69581BEEB82500BEDCF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69571BEEB82500BEDCF8 /* main.m */; };
 		850A695B1BEEB82500BEDCF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A695A1BEEB82500BEDCF8 /* AppDelegate.m */; };
-		850A695E1BEEB82500BEDCF8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A695D1BEEB82500BEDCF8 /* FirstViewController.m */; };
-		850A69611BEEB82500BEDCF8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69601BEEB82500BEDCF8 /* SecondViewController.m */; };
 		850A69641BEEB82600BEDCF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850A69621BEEB82600BEDCF8 /* Main.storyboard */; };
 		850A69661BEEB82600BEDCF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850A69651BEEB82600BEDCF8 /* Assets.xcassets */; };
 		850A69691BEEB82600BEDCF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850A69671BEEB82600BEDCF8 /* LaunchScreen.storyboard */; };
 		850A69741BEEB82600BEDCF8 /* coincoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69731BEEB82600BEDCF8 /* coincoinTests.m */; };
 		850A697F1BEEB82600BEDCF8 /* coincoinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A697E1BEEB82600BEDCF8 /* coincoinUITests.m */; };
+		850A69911BEEB9D800BEDCF8 /* CCEditoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69901BEEB9D800BEDCF8 /* CCEditoTableViewController.m */; };
+		850A69951BEEB9FB00BEDCF8 /* CCListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69941BEEB9FB00BEDCF8 /* CCListCollectionViewController.m */; };
+		850A69971BEEBC7300BEDCF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 850A69961BEEBC7300BEDCF8 /* LaunchScreen.xib */; };
+		850A69DB1BEEC93100BEDCF8 /* listSdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = 850A69DA1BEEC93100BEDCF8 /* listSdf.plist */; };
+		850A69DE1BEEDB9B00BEDCF8 /* CCDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850A69DD1BEEDB9B00BEDCF8 /* CCDonViewController.m */; };
+		8C4D47DB1E9948CCE4076BD3 /* libPods-coincoin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 814A008788BFB5008E9222BD /* libPods-coincoin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		356720D37ADFFED61D9CBA55 /* Pods-coincoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coincoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-coincoin/Pods-coincoin.release.xcconfig"; sourceTree = "<group>"; };
+		46CD7030C62DAB0071C4681B /* Pods-coincoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coincoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coincoin/Pods-coincoin.debug.xcconfig"; sourceTree = "<group>"; };
+		814A008788BFB5008E9222BD /* libPods-coincoin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coincoin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850A69531BEEB82500BEDCF8 /* coincoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coincoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		850A69571BEEB82500BEDCF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		850A69591BEEB82500BEDCF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		850A695A1BEEB82500BEDCF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		850A695C1BEEB82500BEDCF8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		850A695D1BEEB82500BEDCF8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		850A695F1BEEB82500BEDCF8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		850A69601BEEB82500BEDCF8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		850A69631BEEB82600BEDCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		850A69651BEEB82600BEDCF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850A69681BEEB82600BEDCF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,14 @@
 		850A697A1BEEB82600BEDCF8 /* coincoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coincoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850A697E1BEEB82600BEDCF8 /* coincoinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coincoinUITests.m; sourceTree = "<group>"; };
 		850A69801BEEB82600BEDCF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850A698F1BEEB9D800BEDCF8 /* CCEditoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEditoTableViewController.h; sourceTree = "<group>"; };
+		850A69901BEEB9D800BEDCF8 /* CCEditoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEditoTableViewController.m; sourceTree = "<group>"; };
+		850A69931BEEB9FB00BEDCF8 /* CCListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCListCollectionViewController.h; sourceTree = "<group>"; };
+		850A69941BEEB9FB00BEDCF8 /* CCListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCListCollectionViewController.m; sourceTree = "<group>"; };
+		850A69961BEEBC7300BEDCF8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		850A69DA1BEEC93100BEDCF8 /* listSdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = listSdf.plist; sourceTree = "<group>"; };
+		850A69DC1BEEDB9B00BEDCF8 /* CCDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDonViewController.h; sourceTree = "<group>"; };
+		850A69DD1BEEDB9B00BEDCF8 /* CCDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4D47DB1E9948CCE4076BD3 /* libPods-coincoin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13307FB80A62E77F58E54953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46CD7030C62DAB0071C4681B /* Pods-coincoin.debug.xcconfig */,
+				356720D37ADFFED61D9CBA55 /* Pods-coincoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FF12B2BB68840EC185F5C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814A008788BFB5008E9222BD /* libPods-coincoin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		850A694A1BEEB82500BEDCF8 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 				850A69721BEEB82600BEDCF8 /* coincoinTests */,
 				850A697D1BEEB82600BEDCF8 /* coincoinUITests */,
 				850A69541BEEB82500BEDCF8 /* Products */,
+				13307FB80A62E77F58E54953 /* Pods */,
+				7FF12B2BB68840EC185F5C2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +137,14 @@
 			children = (
 				850A69591BEEB82500BEDCF8 /* AppDelegate.h */,
 				850A695A1BEEB82500BEDCF8 /* AppDelegate.m */,
-				850A695C1BEEB82500BEDCF8 /* FirstViewController.h */,
-				850A695D1BEEB82500BEDCF8 /* FirstViewController.m */,
-				850A695F1BEEB82500BEDCF8 /* SecondViewController.h */,
-				850A69601BEEB82500BEDCF8 /* SecondViewController.m */,
 				850A69621BEEB82600BEDCF8 /* Main.storyboard */,
 				850A69651BEEB82600BEDCF8 /* Assets.xcassets */,
 				850A69671BEEB82600BEDCF8 /* LaunchScreen.storyboard */,
 				850A696A1BEEB82600BEDCF8 /* Info.plist */,
 				850A69561BEEB82500BEDCF8 /* Supporting Files */,
+				850A69921BEEB9DC00BEDCF8 /* Controllers */,
+				850A69961BEEBC7300BEDCF8 /* LaunchScreen.xib */,
+				850A69DA1BEEC93100BEDCF8 /* listSdf.plist */,
 			);
 			path = coincoin;
 			sourceTree = "<group>";
@@ -145,6 +175,19 @@
 			path = coincoinUITests;
 			sourceTree = "<group>";
 		};
+		850A69921BEEB9DC00BEDCF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				850A698F1BEEB9D800BEDCF8 /* CCEditoTableViewController.h */,
+				850A69901BEEB9D800BEDCF8 /* CCEditoTableViewController.m */,
+				850A69931BEEB9FB00BEDCF8 /* CCListCollectionViewController.h */,
+				850A69941BEEB9FB00BEDCF8 /* CCListCollectionViewController.m */,
+				850A69DC1BEEDB9B00BEDCF8 /* CCDonViewController.h */,
+				850A69DD1BEEDB9B00BEDCF8 /* CCDonViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 850A69831BEEB82600BEDCF8 /* Build configuration list for PBXNativeTarget "coincoin" */;
 			buildPhases = (
+				D4EF8284C817FAEA8A7D79A3 /* Check Pods Manifest.lock */,
 				850A694F1BEEB82500BEDCF8 /* Sources */,
 				850A69501BEEB82500BEDCF8 /* Frameworks */,
 				850A69511BEEB82500BEDCF8 /* Resources */,
+				A9E25350CBDBFE3E7DF3C15B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850A69971BEEBC7300BEDCF8 /* LaunchScreen.xib in Resources */,
+				850A69DB1BEEC93100BEDCF8 /* listSdf.plist in Resources */,
 				850A69691BEEB82600BEDCF8 /* LaunchScreen.storyboard in Resources */,
 				850A69661BEEB82600BEDCF8 /* Assets.xcassets in Resources */,
 				850A69641BEEB82600BEDCF8 /* Main.storyboard in Resources */,
@@ -270,14 +317,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9E25350CBDBFE3E7DF3C15B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coincoin/Pods-coincoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4EF8284C817FAEA8A7D79A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		850A694F1BEEB82500BEDCF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850A69611BEEB82500BEDCF8 /* SecondViewController.m in Sources */,
+				850A69951BEEB9FB00BEDCF8 /* CCListCollectionViewController.m in Sources */,
+				850A69DE1BEEDB9B00BEDCF8 /* CCDonViewController.m in Sources */,
+				850A69911BEEB9D800BEDCF8 /* CCEditoTableViewController.m in Sources */,
 				850A695B1BEEB82500BEDCF8 /* AppDelegate.m in Sources */,
-				850A695E1BEEB82500BEDCF8 /* FirstViewController.m in Sources */,
 				850A69581BEEB82500BEDCF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +431,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Julien SECHAUD (2SVGC8U924)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -372,6 +453,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0d0cb4b6-0734-47b8-8b27-f96c760f0915";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -393,7 +475,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Julien SECHAUD (P74YBR9XHW)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -408,6 +490,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8be78678-b822-45d4-9934-d83f3b2b3326";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,23 +498,29 @@
 		};
 		850A69841BEEB82600BEDCF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CD7030C62DAB0071C4681B /* Pods-coincoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = coincoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ma.coincoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		850A69851BEEB82600BEDCF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356720D37ADFFED61D9CBA55 /* Pods-coincoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = coincoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ma.coincoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -502,6 +591,7 @@
 				850A69851BEEB82600BEDCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850A69861BEEB82600BEDCF8 /* Build configuration list for PBXNativeTarget "coincoinTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +600,7 @@
 				850A69881BEEB82600BEDCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850A69891BEEB82600BEDCF8 /* Build configuration list for PBXNativeTarget "coincoinUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +609,7 @@
 				850A698B1BEEB82600BEDCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
